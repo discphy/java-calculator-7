@@ -8,7 +8,7 @@ public class CalculateController {
     private final CalculateView view;
     private final CalculateService service;
 
-    public CalculateController() {
+    private CalculateController() {
         this.view = new CalculateView();
         this.service = new CalculateService();
     }
