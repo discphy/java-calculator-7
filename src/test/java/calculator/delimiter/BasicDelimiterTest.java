@@ -16,5 +16,4 @@ class BasicDelimiterTest {
         //when
         assertThat(basicDelimiters).contains(",", ":");
     }
-
 }
